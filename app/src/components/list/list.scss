@@ -1,0 +1,28 @@
+#job-list {
+    margin-top: 2rem;
+    padding: 0 15% 0 15%;
+    ul {
+        padding: 0 !important;
+        li {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            padding: 1rem 2rem 1rem 2rem;
+        }
+        li.blue-background {
+            background-color: blue;
+        }
+        li.red-background {
+            background-color: red;
+        }
+        li.yellow-background {
+            background-color: yellow;
+        }
+    }
+    #header {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 2rem 1rem 2rem;
+        border-bottom: 2px solid black;
+    }
+}

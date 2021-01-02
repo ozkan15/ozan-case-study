@@ -1,0 +1,24 @@
+#edit-form-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba($color: #000000, $alpha: 0.2);
+    #edit-form {
+        padding: 1% 5% 1% 5%;
+        box-shadow: 0 0.5rem 0.5rem grey;
+        position: relative;
+        width: 50%;
+        background-color: white;
+    }
+    span.exit-icon {
+        position: absolute;
+        top: 0rem;
+        right: 0rem;
+        cursor: pointer;
+    }
+}
